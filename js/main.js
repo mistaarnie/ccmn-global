@@ -71,23 +71,8 @@ $(window).scroll(function(){
         $('.forward').fadeOut(300)
   })
   
-  /**********************************************
-  HOVER OVER ABOUT TO SHOW ABOUT CONTAINER
-  **********************************************/
-  $('.about-container').hide();
   
-  $('#about').click(function(){
-    $('.about-container').toggle();
-  });
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
   
   

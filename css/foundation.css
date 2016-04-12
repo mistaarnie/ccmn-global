@@ -2118,7 +2118,8 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #2199e8;
+    border-color: transparent transparent transparent cadetblue;
+    margin-top: 0;
     border-left-style: solid; }
   .dropdown.menu .has-submenu.is-left-arrow.opens-inner .submenu {
     right: 0;
@@ -2133,16 +2134,19 @@ select {
   display: none;
   position: absolute;
   top: 0;
-  left: 100%;
-  min-width: 200px;
+  left: 0;
+  min-width: 280px;
   z-index: 1;
-  background: #fefefe;
-  border: 1px solid #cacaca; }
+  background-color: cadetblue;
+  padding: 20px;
+  padding-top: 40px;
+  border: none; }
   .dropdown.menu .submenu > li {
+    color: white;
     width: 100%; }
   .dropdown.menu .submenu.first-sub {
-    top: 100%;
-    left: 0;
+    top: 0;
+    left: 175px;
     right: auto; }
   .dropdown.menu .submenu:not(.js-dropdown-nohover) > .has-submenu:hover > .dropdown.menu .submenu, .dropdown.menu .submenu.js-dropdown-active {
     display: block; }
